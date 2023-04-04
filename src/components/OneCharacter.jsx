@@ -28,7 +28,7 @@ function OneCharacter() {
       <h3 className="descriptionText">Status: {character.status}</h3>
       <div className="goBack">
         <Link to = '/'> <img src={PortalRickAndMorty} alt="" className="imgPortal"/> </Link>
-        <Link to = '/'> <button className='basic-btn'>Back</button> </Link>
+        <Link to = '/'> <button className='basic-btn'>⬅ Back</button> </Link>
       </div>
     </div>
     </>
