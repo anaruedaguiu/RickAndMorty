@@ -3,7 +3,31 @@
     height: 50px;   
     margin: 20px;
     border-radius: 5px;
-    background-color: #8498D6;
+    background-color: transparent;
     color: white;  
+    font-family: 'Play', sans-serif;
     border: none;
+    font-size: 20px;
+}
+
+.nameOneCharacter {
+    font-family: 'Play', sans-serif;
+    font-weight: lighter;
+    font-size: 30px;
+}
+
+.descriptionText {
+    font-family: 'Play', sans-serif;
+    font-weight: lighter;
+}
+
+.imgPortal {
+    width: 100px;
+}
+
+.goBack {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }

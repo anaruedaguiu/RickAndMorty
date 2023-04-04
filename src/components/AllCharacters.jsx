@@ -17,7 +17,7 @@ function AllCharacters() {
         <>
         {characters.map((character)=>{
             return(
-                <div key={character.id}>
+                <div className="characterName" key={character.id}>
                     <p>{character.name}</p>
                     <Link to={`/character/${character.id}`}><img src={character.image} alt={character.name} className='pic'/></Link>
                 </div>
